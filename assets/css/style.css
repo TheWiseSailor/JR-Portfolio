@@ -130,7 +130,6 @@ button {
   text-align: left;
   cursor: pointer;
 }
-
 input,
 textarea {
   display: block;
@@ -138,7 +137,6 @@ textarea {
   background: none;
   font: inherit;
 }
-
 ::selection {
   background: var(--orange-yellow-crayola);
   color: var(--smoky-black);
@@ -2013,5 +2011,24 @@ textarea.form-input::-webkit-resizer {
 
   .timeline-text {
     max-width: 700px;
+  }
+}
+#Applemoji {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-aspect-ratio: 16/9) {
+  #Applemoji {
+    max-width: 50%;
+    height: auto;
+  }
+}
+@media screen and (max-aspect-ratio: 4/3) {
+  #Applemoji {
+    max-width: 70%;
+    height: auto;
   }
 }
