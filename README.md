@@ -3,4 +3,4 @@
 https://github.com/codewithsadee/vcard-personal-portfolio
 
 deployed site
-https://thewisesailor.github.io/portfoliov2/
+https://thewisesailor.github.io/JR-Portfolio/
